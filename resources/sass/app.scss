@@ -1,0 +1,48 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap-grid';
+
+@font-face {
+    font-family: "Radical";
+    src: url("/fonts/Radical.otf") format("opentype");
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+html {
+    font-family: Roboto, sans-serif;
+}
+
+.skewed {
+    transform: skewY(-17.5deg);
+}
+
+H2 {
+    margin-top: 100px;
+    font-family: Radical;
+    color: #991A2E;
+    font-size: 50px;
+    line-height: 55px;
+}
+
+H1 small,
+H2 small,
+H3 small,
+H4 small,
+H5 small,
+H6 small {
+    font-family: Radical;
+    display: block;
+    font-size: 32px;
+    line-height: 35px;
+
+    color: #9A9B9C;
+}
+
